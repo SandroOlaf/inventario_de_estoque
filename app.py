@@ -1,4 +1,6 @@
 from entrada import entrar
+from saida import saida_de_material
+from relatorio import exibir_relatorio
 
 #Estrutura de FUNCIONAMENTO do sistema
 while True: 
@@ -14,10 +16,9 @@ while True:
     if inicializar == 1:
         entrar()
     elif inicializar == 2:
-        ...
+        saida_de_material()
     elif inicializar == 3:
-        ...
-    elif inicializar == 4:
-        ...
-    else:
+        exibir_relatorio()
         break
+    else:
+        print("Opção inválida!")
