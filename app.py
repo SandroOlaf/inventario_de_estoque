@@ -19,6 +19,8 @@ while True:
         saida_de_material()
     elif inicializar == 3:
         exibir_relatorio()
+    elif inicializar == 4:
+        print("Encerrando o sistema... Até logo!")
         break
     else:
         print("Opção inválida!")

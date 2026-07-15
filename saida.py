@@ -16,4 +16,3 @@ def saida_de_material():
         print("Produto não encontrado!")
     print(f"Estoque Atual: {estoque}\n")
 
-saida_de_material()

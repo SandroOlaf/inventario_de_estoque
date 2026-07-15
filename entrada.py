@@ -17,5 +17,3 @@ def entrar():
     print(f"Estado atual do estoque: {estoque}\n")
 
 # Simulando duas rodadas para teste
-entrar()
-entrar()

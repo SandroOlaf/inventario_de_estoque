@@ -3,8 +3,9 @@ from entrada import estoque
 def exibir_relatorio():
 
     if not estoque:
-        print("Estoque encontra-se vazio!")
+        print("Estoque vazio no momento.")
 
-    for chave, valor in estoque:
-        print(f"Saldo de Estoque atualizado: Items:{chave} / Quantidade:{valor} /n")
+    for item in estoque:
+        quantidade = estoque[item]
+        print(f"Saldo de Estoque atualizado: Items:{item}\ Quantidade: {quantidade} \n")
 
